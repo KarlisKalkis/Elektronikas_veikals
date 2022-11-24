@@ -69,15 +69,15 @@ nav .menu{
   background: rgba(0, 0, 0, 0.4);
 }
 
-.blank-background{
-  background: url('blank_background.jpg')no-repeat;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+.blank-background{ 
+background:url('blank_background.jpg')no-repeat;
+width: 100%;
+height: 170%;
+background-size: cover;
+background-position: center;
+position: absolute;
 }
-}
+
 .center{
   position: absolute;
   top: 20%;
@@ -91,6 +91,8 @@ nav .menu{
   color: #640202;
   font-size: 35px;
   font-weight: 600;
+  position: relative;
+  
 }
 
 .sub_title{
@@ -147,7 +149,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #111;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -156,14 +158,10 @@ li.dropdown {
 /* dropdowns produktiem beidzas */
 
 
-html,
-body,
-img,
-figure {
+html,body,img,figure {
   max-width: 100%;
 }
-html,
-body {
+html,body {
   overflow-x: hidden;
   color: #5C9Bab;
   -ms-overflow-style: scrollbar;
@@ -586,49 +584,97 @@ GooglePlay.png {
 }
 
 
-/* Products slideshow*/
 
-.slide-show{
-  max-width: auto;
-  position: absolute;
-  margin: auto;
-  top: 10%;
+/* Products page */
+.ProductsTitle{
+  position: relative;
+  font-size: 35px;
+  color: #640202;
+  top: 30px;
+  font-weight: 600;
+  background: black;
+  border-radius: 15%;
+  margin: 50px;
+  text-align: center;
 }
 
-/* Next & previous button */
-
-.prev, .next{
-  cursor: pointer;
-  position: absolute;
-  top:50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
+.AboutFixText{
   font-size: 20px;
-  transition: 1.8sec;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  color: #640202;
+  font-weight: 600;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.AboutFix{
+  background: black;
+  position: relative;
+  top: 60%;
+  text-align: left;
+  border: 50%;
+  width: 600px;
 }
 
-/* On hover turns black after exact time */
-.prev:hover, .next:hover{
-  background-color: rgb(255, 0, 0)
+.aboutProduct{
+  text-align: right;
+  font-size: 15px;
+  color: #640202;
+  text-decoration: underline;
 }
 
-/* Fading */ 
-.fade{
-  animation-name: fade;
-  animation-duration: 3s;
+.newMonitor{
+  background: black;
+  position: relative;
+  text-align: left;
+  width: 600px;
+  top: 20%;
 }
 
-@keyframes fade{
-  from{opacity: .4};
-  to{opacity: 1}
+.newMonitorText{
+  font-size: 20px;
+  color: #640202;
+  font-weight: 600;
+  text-decoration: underline;
 }
+
+.subnewMonitorText{
+  font-size: 18px;
+  color: #640202;
+  font-weight: 600;
+}
+
+.newAudio{
+  background: black;
+  position: relative;
+  text-align: left;
+  width: 600px;
+  top: 30%;
+}
+
+.newAudioText{
+  font-size: 20px;
+  color: #640202;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.subnewAudioText{
+  font-size: 18px;
+  color: #640202;
+  font-weight: 600;
+}
+
+.forTrueText{
+  font-size: 20px;
+  color: #640202;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.subforTrueText{
+  font-size: 18px;
+  color: #640202;
+  font-weight: 600;
+  
+}
+
+
 

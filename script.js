@@ -1,20 +1,20 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+slideshows.forEach(initSlideShow);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function initSlideShow(slideshow) {
+
+	var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`);
+
+	var index = 0, time = 5000;
+	slides[index].classList.add('active');
+
+	setInterval( () => {
+		slides[index].classList.remove('active');
+		
+		index++;
+		if (index === slides.length) index = 0;
+
+		slides[index].classList.add('active');
+
+	}, time);
 }
-
-function currentSlide(n){
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n){
-  let i;
-  let slides = document.getElementByClassName("slide-show");
-  if (n > slides.lenght) {slideIndex =1}
-  if (n<1){slideIndex = slides.lenght}
-  for (i = 0; i < slides.lenght; i++){
-    slides[i].style.display = "none";
-  }
-  }
