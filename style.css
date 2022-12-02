@@ -72,7 +72,7 @@ nav .menu{
 .blank-background{ 
 background:url('blank_background.jpg')no-repeat;
 width: 100%;
-height: 170%;
+height: 160%;
 background-size: cover;
 background-position: center;
 position: absolute;
@@ -180,6 +180,14 @@ a {
 }
 .ct-u-paddingTop10 {
   padding-top: 10px !important;
+}
+
+footer{
+  clear: both;
+  position: relative;
+  height: 100%;
+  margin-top: -200px;
+  width: 
 }
 .ct-footer {
   background-color: #111;
@@ -586,95 +594,175 @@ GooglePlay.png {
 
 
 /* Products page */
-.ProductsTitle{
-  position: relative;
-  font-size: 35px;
-  color: #640202;
-  top: 30px;
-  font-weight: 600;
+.newAudio{
+  position: absolute;
+  top: 30%;
+  left: 10%;
   background: black;
-  border-radius: 15%;
-  margin: 50px;
-  text-align: center;
+  width: 350px;
+  height: 130px;
 }
 
-.AboutFixText{
-  font-size: 20px;
+.newAudioTXT{
   color: #640202;
   font-weight: 600;
 }
 
-.AboutFix{
-  background: black;
-  position: relative;
-  top: 60%;
+.newAudioPIC{
   text-align: left;
-  border: 50%;
-  width: 600px;
+  margin: 10px
 }
 
-.aboutProduct{
-  text-align: right;
-  font-size: 15px;
+.link{
   color: #640202;
-  text-decoration: underline;
+  text-align: right;
+}
+
+.cleaning{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  background: black;
+  width: 350px;
+  height: 160px;
+}
+
+.cleaningTXT{
+  color: #640202;
+  font-weight: 600;
 }
 
 .newMonitor{
+  position: absolute;
+  top: 55%;
+  left: 60%;
   background: black;
-  position: relative;
-  text-align: left;
-  width: 600px;
-  top: 20%;
+  width: 350px;
+  height: 130px;
 }
 
-.newMonitorText{
-  font-size: 20px;
-  color: #640202;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.subnewMonitorText{
-  font-size: 18px;
+.newMonitorTXT{
   color: #640202;
   font-weight: 600;
 }
 
-.newAudio{
-  background: black;
-  position: relative;
-  text-align: left;
-  width: 600px;
+.true_gamers{
+  position: absolute;
   top: 30%;
+  left: 60%;
+  background: black;
+  width: 350px;
+  height: 135px;
+}
+.trueTXT{
+  color: #640202;
+  font-weight: 600;
 }
 
-.newAudioText{
+
+/*Learn more cleaning */
+.aboutfix .shortInfo{
+  font-size: 26px;
+  color: #640202;
+  font-weight: 600;
+  position: relative;
+
+}
+
+.aboutfix{
+  position: relative;
+  top: 500px;
+  width: 1000px;
+  text-align: center;
+  background: black;
+  height: 200px;
+}
+
+.aboutfix .AboutFixPic{
+  text-align: left;
+  top: 10%;
+  padding: 40px;
+}
+
+table{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  background: black;
+  height: 40%;
+
+
+}
+
+table, td th{
+  color: #640202;
   font-size: 20px;
+  padding: 3px;
+}
+
+
+
+/*Learn more about audio system */
+.audiocontent{
+  top: 40%;
+  position: absolute;
+  text-align: left;
+  left: 1%;
+  font-weight: 700;
+  background: black;
+}
+
+.contentTXTT{
+  font-size: 30px;
+  margin: 15px;
   color: #640202;
-  font-weight: 600;
   text-decoration: underline;
+  text-align: center;
+  position: relative
 }
 
-.subnewAudioText{
-  font-size: 18px;
+.contentTXT{
   color: #640202;
-  font-weight: 600;
-}
-
-.forTrueText{
   font-size: 20px;
-  color: #640202;
-  text-decoration: underline;
-  font-weight: 600;
+  margin: 1%;
+  text-align: center;
+  position: relative
 }
 
-.subforTrueText{
-  font-size: 18px;
+.LOGpic{
+  text-align: center;
+}
+
+.aboutSystem{
   color: #640202;
-  font-weight: 600;
+  top: 40%;
+  left: 10%;
+  inline-size: 200px;
+  position: absolute;
+  margin: 30px;
+}
+
+.aboutSystemPrice{
+  inline-size: 250px;
+  position: absolute;
+  color: #640202;
+  margin: 5%;
+  left: 70%;
+  top: 40%;
+}
+
+
+
+.disclaimer{
+  margin: 5%;
+  text-align: center;
+  color: #640202
+}
+
+.cleaningPIC{
+  position: absolute;
+  left: 70%;
+  top: 50%;
   
 }
-
-
-
