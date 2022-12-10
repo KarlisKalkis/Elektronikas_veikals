@@ -760,9 +760,21 @@ table, td th{
   color: #640202
 }
 
-.cleaningPIC{
-  position: absolute;
-  left: 70%;
-  top: 50%;
-  
+/*Review*/
+
+.review{
+  color: #640202;
 }
+
+.review .fname{
+  margin: 2%
+}
+
+
+
+
+
+
+
+/*Log in */
+
