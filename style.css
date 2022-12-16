@@ -56,7 +56,7 @@ nav .menu{
 .img{
   background: url('LOGO.jpg')no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 140vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -883,15 +883,1012 @@ submit-btn{
     justify-content: center;
 }
 
+.p{
+  background: black;
+  position: relative;
+  height: 300px;
+  width: 500px;
+  align-items: right;
+}
+
 .p .New-Iphone{
   background: black;
   width: 100%;
-  height: 30%;
+  height: 20%;
+  font-size: 24px;
+  align-items: right;
+  
 }
 
 .p img{
-  width: 40%;
-  height: 40%;
-  align-items: left;
+  width: 50%;
+  height: 300%;
+  align-items: right;
   position: relative;
 }
+
+
+
+
+/* Staff  */
+.our-staff{
+  width: 100%;
+  height: 100vh;
+  background: url(blank_background.jpg);
+  color: #640202;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.staff1{
+  width: 50%;
+  height: 30%;
+  top: 40%;
+  display: flex;
+  justify-content: ceneter;
+  background: black;
+  box-sizing: border-box;
+}
+
+.
+
+
+.turkin{
+  width: 40%;
+  height: 50%;
+  margin: 3%;
+}
+
+.kalkis{
+  width: 40%;
+  height: 50%;
+  margin: 3%;
+}
+
+.slisans{
+  width: 40%;
+  height: 40%;
+}
+
+.novickis{
+  width: 40%;
+  height: 50%;
+}
+
+/* Dator Preces */
+
+.card0{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card0 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 20%;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card0 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card0 button:hover {
+  opacity: 0.7;
+}
+/* otra prece */
+.card1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+/* trešā prece */
+.card2{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card2 button:hover {
+  opacity: 0.7;
+}
+  /* ceturtā prece */
+.card3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card3 button:hover {
+  opacity: 0.7;
+}
+
+  /* Piektā prece */
+.card4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card4 button:hover {
+  opacity: 0.7;
+}
+
+  /* sestā prece */
+.card5 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card5 button:hover {
+  opacity: 0.7;
+}
+
+/*Dator Preces beidzas*/
+
+                 /* Konsoles preces*/
+
+/* konsoles 1 prece */
+.console1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console1 button:hover {
+  opacity: 0.7;
+}
+
+/* konsoles 2 prece */
+.console2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console2 button:hover {
+  opacity: 0.7;
+}
+
+/* konsoles 3 prece */
+.console3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console3 button:hover {
+  opacity: 0.7;
+}
+
+/* konsoles 4 prece */
+.console4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console4 button:hover {
+  opacity: 0.7;
+}
+
+
+/* konsoles 5 prece */
+.console5 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console5 button:hover {
+  opacity: 0.7;
+}
+
+/* konsoles 6 prece */
+.console6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.console6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.console6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.console6 button:hover {
+  opacity: 0.7;
+}
+
+/* konsoles preces beidzas */
+
+
+            /* telefonu 1 prece */
+.phone1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone1 button:hover {
+  opacity: 0.7;
+}
+
+/* telefonu 2 prece */
+.phone2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone2 button:hover {
+  opacity: 0.7;
+}
+
+/* telefonu 3 prece */
+.phone3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone3 button:hover {
+  opacity: 0.7;
+}
+
+
+/* telefonu 4 prece */
+.phone4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 105%;
+  left: 20%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone4 button:hover {
+  opacity: 0.7;
+}
+
+/* telefonu 5 prece */
+.phone5 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone5 button:hover {
+  opacity: 0.7;
+}
+
+/* telefonu 6 prece */
+.phone6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.phone6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 105%;
+  left: 80%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  color: #640202;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.phone6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #640202;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.phone6 button:hover {
+  opacity: 0.7;
+}
+/* telefonu  preces beidzas */
+
+/*delivery bar*/
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+
+.card {
+    z-index: 0;
+    background-color: #eceff1;
+    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 100px;
+}
+
+.top {
+    padding-top: 40px;
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+}
+
+/* Icon progressbar */
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: #455a64;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+}
+
+#progressbar .step0::before {
+    font-family: FontAwesome;
+    content: '\f10c';
+    color: #fff;
+}
+
+#progressbar li::before {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    background: #c5cae9;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+/* Progressbar connector */
+#progressbar li::after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background-color: #c5cae9;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: -1;
+}
+
+#progressbar li:last-child::after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: -50%;
+}
+
+#progressbar li:nth-child(2)::after,
+#progressbar li:nth-child(3)::after {
+    left: -50%;
+}
+
+#progressbar li:first-child::after {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 50%;
+}
+
+/* Color number of the step and the connect tor before it */
+
+#progressbar li.active::before,
+#progressbar li.active::after {
+    background-color: #651fff;
+}
+
+#progressbar li.active::before {
+    font-family: FontAwesome;
+    content: '\f00c';
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.icon-content {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .icon-content {
+        width: 50%;
+    }
+}
+
+/*delivery bar beidzas*/
+
+
+/*search bars sākas*/
+#searchbar{
+	margin-left: 15%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+
+.Classes{
+display: list-item;	
+}
+
+
+/*search bars beidzas*/
