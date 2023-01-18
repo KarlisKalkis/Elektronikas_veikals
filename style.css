@@ -591,74 +591,200 @@ GooglePlay.png {
   padding: 0
 }
 
-
-
 /* Products page */
-.newAudio{
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  background: black;
-  width: 350px;
-  height: 130px;
+
+/*New audio */
+.audio-card {
+ position: absolute;
+ top: 98%;
+ left: 18%;
+ width: 200px;
+ height: 254px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.newAudioTXT{
-  color: #640202;
-  font-weight: 600;
+
+.audio-card span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.newAudioPIC{
-  text-align: left;
-  margin: 10px
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.link{
-  color: #640202;
-  text-align: right;
+.audio-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.cleaning{
-  position: absolute;
-  top: 55%;
-  left: 10%;
-  background: black;
-  width: 350px;
-  height: 160px;
+.audio-card button:hover {
+ background: #4d0000;
 }
 
-.cleaningTXT{
-  color: #640202;
-  font-weight: 600;
+/*New audio beidzas*/
+
+/*New cleaning */
+.cleaning-card {
+ position: absolute;
+ top: 552%;
+ left: 18%;
+ width: 200px;
+ height: 271px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.newMonitor{
-  position: absolute;
-  top: 55%;
-  left: 60%;
-  background: black;
-  width: 350px;
-  height: 130px;
+
+.cleaning-card span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.newMonitorTXT{
-  color: #640202;
-  font-weight: 600;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.true_gamers{
-  position: absolute;
-  top: 30%;
-  left: 60%;
-  background: black;
-  width: 350px;
-  height: 135px;
-}
-.trueTXT{
-  color: #640202;
-  font-weight: 600;
+.cleaning-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
+.cleaning-card button:hover {
+ background: #4d0000;
+}
+
+/*Cleaning beidzas */
+
+
+/*monitor  */
+.newMonitor-card {
+ position: absolute;
+ top: 570%;
+ left: 75%;
+ width: 200px;
+ height: 287px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
+}
+
+
+.newMonitor-card span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.newMonitor-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
+}
+
+.newMonitor-card button:hover {
+ background: #4d0000;
+}
+
+/*Moitor beidzas */
+
+/*TrueGamer  */
+.TrueGamers-card {
+ position: absolute;
+ top: 98%;
+ left: 75%;
+ width: 200px;
+ height: 274px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
+}
+
+
+.TrueGamers-card span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.TrueGamers-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
+}
+
+.TrueGamers-card button:hover {
+ background: #4d0000;
+}
+
+/*TrueGamer beidzas */
 
 /*Learn more cleaning */
 .aboutfix .shortInfo{
@@ -883,6 +1009,7 @@ submit-btn{
     justify-content: center;
 }
 
+
 .p{
   background: black;
   position: relative;
@@ -890,6 +1017,7 @@ submit-btn{
   width: 500px;
   align-items: right;
 }
+
 
 .p .New-Iphone{
   background: black;
@@ -901,12 +1029,20 @@ submit-btn{
 }
 
 .p img{
-  width: 50%;
-  height: 300%;
+  width: 35%;
+  height: 250%;
   align-items: right;
   position: relative;
 }
 
+.s .No-news{
+  background: black;
+  height: 20%px;
+  width: 40%px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
 
 
 
@@ -918,7 +1054,7 @@ submit-btn{
   color: #640202;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: bottom, center;
 }
 
 .staff1{
@@ -958,783 +1094,824 @@ submit-btn{
 
 /* Dator Preces */
 
-.card0{
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-}
-
 .card0 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  top: 50%;
-  left: 20%;
-  max-width: 300px;
-  margin: 10px;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+ position: absolute;
+ top: 29%;
+ left: 10%;
+ width: 250px;
+ height: 330px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+
+.card0 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card0 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card0 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
+
 /* otra prece */
-.card1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-  margin-bottom: 10%;
-}
-
 .card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 10px;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+ position: absolute;
+ top: 29%;
+ left: 40%;
+ width: 250px;
+ height: 350px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+
+.card1 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card1 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
 /* trešā prece */
-.card2{
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-}
-
 .card2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 10px;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+ position: absolute;
+ top: 29%;
+ left: 68%;
+ width: 250px;
+ height: 325px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+
+.card2 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 23px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card2 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card2 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
   /* ceturtā prece */
 .card3 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+ position: absolute;
+ top: 73%;
+ left: 10%;
+ width: 250px;
+ height: 365px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.card3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 100%;
-  left: 20%;
-  max-width: 300px;
-  margin: 10px;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.card3 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 49px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card3 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card3 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
-
   /* Piektā prece */
 .card4 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+ position: absolute;
+ top: 73%;
+ left: 40%;
+ width: 250px;
+ height: 350px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.card4 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  max-width: 300px;
-  margin: 10px;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.card4 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card4 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card4 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
-
   /* sestā prece */
 .card5 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+ position: absolute;
+ top: 73%;
+ left: 69%;
+ width: 250px;
+ height: 406px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.card5 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 100%;
-  left: 80%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.card5 span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 30px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
 .card5 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
 .card5 button:hover {
-  opacity: 0.7;
+ background: #4d0000;
 }
-
 /*Dator Preces beidzas*/
 
                  /* Konsoles preces*/
 
 /* konsoles 1 prece */
-.console1 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.console1-card {
+ position: absolute;
+ top: 29%;
+ left: 10%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.console1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.console1-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.console1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.console1-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.console1 button:hover {
-  opacity: 0.7;
+.console1-card button:hover {
+ background: #4d0000;
 }
-
 /* konsoles 2 prece */
-.console2 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.console2-card {
+ position: absolute;
+ top: 29%;
+ left: 40%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.console2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.console2-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.console2 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.console2-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.console2 button:hover {
-  opacity: 0.7;
+.console2-card button:hover {
+ background: #4d0000;
 }
 
 /* konsoles 3 prece */
-.console3 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.console3-card {
+ position: absolute;
+ top: 29%;
+ left: 70%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.console3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.console3-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 65px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.console3 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.console3-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.console3 button:hover {
-  opacity: 0.7;
+.console3-card button:hover {
+ background: #4d0000;
 }
 
 /* konsoles 4 prece */
-.console4 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.console4 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 100%;
-  left: 20%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
-}
-
-.price {
-  color: whitesmoke;
-  font-size: 22px;
-}
-
-.console4 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.console4 button:hover {
-  opacity: 0.7;
+.console4-card {
+ position: absolute;
+ top: 73%;
+ left: 10%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
 
+.console4-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 30px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.console4-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
+}
+
+.console4-card button:hover {
+ background: #4d0000;
+}
 /* konsoles 5 prece */
-.console5 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.console5-card {
+ position: absolute;
+ top: 73%;
+ left: 40%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.console5 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.console5-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 30px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.console5 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.console5-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.console5 button:hover {
-  opacity: 0.7;
+.console5-card button:hover {
+ background: #4d0000;
 }
-
 /* konsoles 6 prece */
-.console6 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.console6-card {
+ position: absolute;
+ top: 73%;
+ left: 70%;
+ width: 250px;
+ height: 400px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.console6 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 100%;
-  left: 80%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.console6-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 90px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.console6 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.console6-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.console6 button:hover {
-  opacity: 0.7;
+.console6-card button:hover {
+ background: #4d0000;
 }
-
 /* konsoles preces beidzas */
 
 
             /* telefonu 1 prece */
-.phone1 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.phone1-card {
+ position: absolute;
+ top: 29%;
+ left: 10%;
+ width: 250px;
+ height: 360px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.phone1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.phone1-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.phone1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.phone1-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.phone1 button:hover {
-  opacity: 0.7;
+.phone1-card button:hover {
+ background: #4d0000;
 }
-
 /* telefonu 2 prece */
-.phone2 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.phone2-card {
+ position: absolute;
+ top: 29%;
+ left: 40%;
+ width: 250px;
+ height: 370px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.phone2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.phone2-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 5px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.phone2 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.phone2-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.phone2 button:hover {
-  opacity: 0.7;
+.phone2-card button:hover {
+ background: #4d0000;
 }
-
 /* telefonu 3 prece */
-.phone3 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.phone3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
-}
-
-.price {
-  color: whitesmoke;
-  font-size: 22px;
-}
-
-.phone3 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.phone3 button:hover {
-  opacity: 0.7;
+.phone3-card {
+ position: absolute;
+ top: 29%;
+ left: 70%;
+ width: 250px;
+ height: 370px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
 
+.phone3-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 60px;
+ font-size: 16px;
+}
+
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.phone3-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
+}
+
+.phone3-card button:hover {
+ background: #4d0000;
+}
 /* telefonu 4 prece */
-.phone4 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.phone4-card {
+ position: absolute;
+ top: 73%;
+ left: 10%;
+ width: 250px;
+ height: 450px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.phone4 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 105%;
-  left: 20%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.phone4-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 140px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.phone4 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.phone4-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.phone4 button:hover {
-  opacity: 0.7;
+.phone4-card button:hover {
+ background: #4d0000;
 }
-
 /* telefonu 5 prece */
-.phone5 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.phone5-card {
+ position: absolute;
+ top: 73%;
+ left: 40%;
+ width: 250px;
+ height: 450px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.phone5 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 102%;
-  left: 50%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.phone5-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 126px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.phone5 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.phone5-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.phone5 button:hover {
-  opacity: 0.7;
+.phone5-card button:hover {
+ background: #4d0000;
 }
-
 /* telefonu 6 prece */
-.phone6 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
+.phone6-card {
+ position: absolute;
+ top: 73%;
+ left: 70%;
+ width: 250px;
+ height: 450px;
+ background: #000000;
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #6100006b;
 }
 
-.phone6 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 105%;
-  left: 80%;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: black;
-  color: #640202;
+
+.phone6-card span {
+ font-weight: 600;
+ color: #640202;
+ text-align: center;
+ display: block;
+ padding-top: 69px;
+ font-size: 16px;
 }
 
-.price {
-  color: whitesmoke;
-  font-size: 22px;
+.Image {
+ width: 160px;
+ height: 115px;
+ border-radius: 30px;
+ margin: auto;
+ margin-top: 25px;
 }
 
-.phone6 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: #640202;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.phone6-card button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6100006b;
+ color: white;
+ font-weight: 600;
 }
 
-.phone6 button:hover {
-  opacity: 0.7;
+.phone6-card button:hover {
+ background: #4d0000;
 }
 /* telefonu  preces beidzas */
 
@@ -1862,33 +2039,72 @@ body {
 /*delivery bar beidzas*/
 
 
-/*search bars sākas*/
-#searchbar{
-	margin-left: 15%;
-	padding:15px;
-	border-radius: 10px;
+/* Shopping cart */
+
+.cart-container{
+  width: 70%;
+  height: 80%;
+  background-image: linear-gradient(rgba(31, 41, 35, 1), rgba(31, 41, 35, 1));
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+  position: absolute;
+  top: 10%;
+  left: 15%;
 }
 
-input[type=text] {
-	width: 30%;
-	-webkit-transition: width 0.15s ease-in-out;
-	transition: width 0.15s ease-in-out;
+.headerCart{
+  margin: auto;
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
 }
 
-/* When the input field gets focus,
-		change its width to 100% */
-input[type=text]:focus {
-	width: 70%;
+.HEADING{
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #640202;
 }
 
-#list{
-	font-size: 1.5em;
-	margin-left: 90px;
+.ACTION{
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #5C9Bab;
+  cursor: pointer;
+  border-bottom: 1px solid; 
 }
 
-.Classes{
-display: list-item;	
+
+  /* search bars delivery */
+
+
+
+
+                  /* Search bars delivery */
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
 
-/*search bars beidzas*/
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+                  /* Search bars delivery */
