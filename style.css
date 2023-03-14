@@ -2048,7 +2048,7 @@ body {
   border-radius: 20px;
   box-shadow: 0px 25px 40px #1687d933;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 15%;
 }
 
@@ -2094,9 +2094,9 @@ body {
 }
 
 #myUL li a {
-  border: 1px solid #ddd; /* Add a border to all links */
+  border: 1px solid #eee; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6; /* Grey background color */
+  background-color: #eee; /* Grey background color */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove default text underline */
   font-size: 18px; /* Increase the font-size */
@@ -2104,7 +2104,25 @@ body {
   display: block; /* Make it into a block element to fill the whole list */
 }
 
-#myUL li a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
+               /* Search bars delivery beidzas */
+
+.card-body{
+  background-color: #ffffff;
 }
-                  /* Search bars delivery */
+
+.table{
+  background-color: #ffffff;
+  margin-left: -20px;
+}
+
+.buttoninfo{
+  color: black;
+  background-color: red;
+  padding: 20px;
+  border-radius: 20%;
+  margin-top: 20px;
+  position: relative;
+  width: 200px;
+  top: 20%;
+  text-align: center;
+}
